@@ -1,8 +1,11 @@
+// PetSold.java
 public class PetSold extends ItemSold
 {
+    // Set Boolean fields to show if pet is vaccinated, neutered and housebroken
     private boolean isVaccinated;
     private boolean isNeutered;
     private boolean isHousebroken;
+    // Create method to retrieve field values
     public boolean getIsVaccinated()
     {
         return isVaccinated;
@@ -15,6 +18,7 @@ public class PetSold extends ItemSold
     {
         return isHousebroken;
     }
+    // Set methods for each field
     public void setIsVaccinated(boolean isVac)
     {
         isVaccinated = isVac;

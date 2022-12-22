@@ -1,3 +1,4 @@
+// DemoItemsAndPets.java
 import java.util.*;
 public class DemoItemsAndPets
 {
@@ -8,6 +9,7 @@ public class DemoItemsAndPets
         PetSold pet1 = new PetSold();
         PetSold pet2 = new PetSold();
         item1.setInvoiceNumber(1111);
+        // Get details of the items and pets to test for the classes
         item1.setDescription("30 gallon aquariam");
         item1.setPrice(39.99);
         item2.setInvoiceNumber(2222);
@@ -25,6 +27,7 @@ public class DemoItemsAndPets
         pet2.setIsVaccinated(true);
         pet2.setIsNeutered(false);
         pet2.setIsHousebroken(true);
+        // Display the result of the items and pets' details
         display(item1);
         display(item2);
         display(pet1);
@@ -34,12 +37,14 @@ public class DemoItemsAndPets
     }
     public static void display(ItemSold item)
     {
+        // Print results of the items bought
         System.out.println("Invoice #" + item.getInvoiceNumber());
         System.out.println("     Description: " + item.getDescription());
         System.out.println("     Price: $" + item.getPrice());
     }
     public static void displayPetData(PetSold item)
     {
+        // Print results of the pets' details
         System.out.println("     Vaccinated is " + item.getIsVaccinated());
         System.out.println("     Neutered is " + item.getIsNeutered());
         System.out.println("     Housebroken is " + item.getIsHousebroken());

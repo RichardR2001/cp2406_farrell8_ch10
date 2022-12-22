@@ -1,8 +1,11 @@
+// Candle.java
 public class Candle
 {
+    // Store each variable according to their types
     private String color;
     private int height;
     protected double price;
+    // Create method to retrieve field values
     public String getColor()
     {
         return color;
@@ -15,6 +18,7 @@ public class Candle
     {
         return price;
     }
+    // Set methods for each field
     public void setColor(String c)
     {
         color = c;

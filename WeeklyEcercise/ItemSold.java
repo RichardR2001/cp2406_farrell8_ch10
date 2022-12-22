@@ -1,8 +1,11 @@
+// ItemSold.java
 public class ItemSold
 {
+    // Store each variable according to their types
     private int invoiceNumber;
     private String description;
     private double price;
+    // Create method to retrieve field values
     public int getInvoiceNumber()
     {
         return invoiceNumber;
@@ -15,6 +18,7 @@ public class ItemSold
     {
         return price;
     }
+    // Set methods for each field
     public void setInvoiceNumber(int num)
     {
         invoiceNumber = num;

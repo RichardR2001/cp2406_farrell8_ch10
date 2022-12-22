@@ -1,10 +1,11 @@
 // Horse.java
-
 public class Horse
 {
+    // Store each variable according to their types
     private String name;
     private String color;
     private int birthYear;
+    // Create method to retrieve field values
     public String getName()
     {
         return name;
@@ -17,6 +18,7 @@ public class Horse
     {
         return birthYear;
     }
+    // Set methods for each field
     public void setName(String n)
     {
         name = n;
