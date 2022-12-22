@@ -2,8 +2,8 @@ public class TestProPlayer
 {
    public static void main(String[] args)
    {
-      ProfessionalBaseballPlayer aYankee =
-         new ProfessionalBaseballPlayer();
+      ProfessionalBasketballPlayer aYankee =
+         new ProfessionalBasketballPlayer();
       aYankee.showOrigins();
    }
 }
